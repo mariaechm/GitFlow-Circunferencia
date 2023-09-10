@@ -1,0 +1,23 @@
+import math
+
+# Coordenadas del centro de la circunferencia (h, k)
+h = float(input("Ingrese la coordenada x del centro (h): "))
+k = float(input("Ingrese la coordenada y del centro (k): "))
+
+# Coordenadas de un punto en la circunferencia (x, y)
+x = float(input("Ingrese la coordenada x de un punto en la circunferencia (x): "))
+y = float(input("Ingrese la coordenada y de un punto en la circunferencia (y): "))
+
+# Calcula el radio
+radio = math.sqrt((x - h)**2 + (y - k)**2)
+
+# Escribe la ecuación de la circunferencia
+ecuacion = f"(x - {h})^2 + (y - {k})^2 = {radio**2}"
+
+# Punto medio
+punto_medio = (h, k)
+
+# Imprime los resultados
+print(f"Ecuación de la circunferencia: {ecuacion}")
+print(f"Radio de la circunferencia: {radio}")
+print(f"Punto medio de la circunferencia: ({punto_medio[0]}, {punto_medio[1]})")
