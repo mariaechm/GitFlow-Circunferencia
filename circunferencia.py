@@ -29,14 +29,17 @@ ecuacion = f"(x - {h})^2 + (y - {k})^2 = {radio**2}"
 # Punto medio
 punto_medio = (h, k)
 
-suma =  h + k
+suma_xy = (x+ y)
+
+suma_centro =  h + k
 
 # Imprime los resultados
 print("---------------------------------------------------------------------------")
 print(f"Ecuación de la circunferencia: {ecuacion}")
 print(f"Radio de la circunferencia: {radio}")
 print(f"Punto medio de la circunferencia: ({punto_medio[0]}, {punto_medio[1]})")
-print(f'Suma de las coordenadas del centro de la circunferencia: {suma}')
+print(f'Suma de las coordenadas del centro de la circunferencia: {suma_centro}')
+print(f'Suma de las coordenas en los puntos x y: {suma_xy}')
 print("---------------------------------------------------------------------------")
 
 print("Gracias por usar el programa")
