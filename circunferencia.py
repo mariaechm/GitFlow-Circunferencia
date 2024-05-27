@@ -2,7 +2,6 @@ import math
 
 print("---------------------------------------------------------------------------")
 print("Programa para calcular la ecuación de una circunferencia")
-print("Pull request 1")
 print("---------------------------------------------------------------------------")
 print("Implementacion de suma de las coordenadas del centro de la circunferencia")
 print("---------------------------------------------------------------------------")
@@ -43,3 +42,4 @@ print(f'Suma de las coordenas en los puntos x y: {suma_xy}')
 print("---------------------------------------------------------------------------")
 
 print("Gracias por usar el programa")
+print("----------------------------------------------------------------------")
